@@ -1,0 +1,8 @@
+Criar pagina de consulta de clientes
+criar página de consulta de produtos
+
+Criar uma api no json-server
+
+Fazer commit no git
+
+Obs: Procure usar todos os recursos já ensinados nas aulas:  Estilização, layout, etc.
