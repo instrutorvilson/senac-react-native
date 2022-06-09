@@ -12,6 +12,7 @@
     <label>Digite um codigo de cliente</label>
     <input type="number" id="idcliente" />
     <button onclick="pesquisar()">pesquisar</button>
+    <button onclick="excluir()">Excluir</button>
     <hr>
     <label>Nome</label>
     <input type="text" id="nome" />
@@ -20,6 +21,7 @@
     <label>Fone</label>
     <input type="text" id="fone" />
     <button onclick="alterar()">Alterar</button>
+    
      <label id="msg"></label>
     <script>
         function pesquisar() {
@@ -55,7 +57,13 @@
             .then(data => data.json())
             .then(cli => alert('Cliente alterado com sucesso'))
         }
-
+        
+        function excluir(){
+          var idpesquisa = document.getElementById("idcliente").value
+          fetch(`http://localhost:3000/clientes/${idpesquisa}`, { method: 'DELETE'})
+            .then(data => data.json())
+            .then(cli => alert('Cliente excluido com sucesso'))
+        }
 
     </script>
 </body>

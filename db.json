@@ -1,12 +1,6 @@
 {
   "clientes": [
     {
-      "nome": "Pedro parada",
-      "email": "pedro@gmail.com",
-      "fone": "456",
-      "id": 1
-    },
-    {
       "nome": "luiz da Silva",
       "email": "luiz@gmail.com",
       "fone": "345",
