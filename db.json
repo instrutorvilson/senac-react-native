@@ -1,12 +1,6 @@
 {
   "clientes": [
     {
-      "nome": "Pedro",
-      "email": "pedro@gmail.com",
-      "fone": "1234",
-      "id": 3
-    },
-    {
       "nome": "Luiz",
       "email": "luiz@gmail.com",
       "fone": "1234567",
@@ -14,9 +8,21 @@
     },
     {
       "nome": "ana",
-      "email": "maria",
-      "fone": "lksjc",
+      "email": "ana@gmail.com",
+      "fone": "202020",
       "id": 6
+    },
+    {
+      "nome": "ana maria",
+      "email": "ana@gmail.com",
+      "fone": "303030xd",
+      "id": 7
+    },
+    {
+      "nome": "pedro",
+      "email": "pedro@gmail.com",
+      "fone": "707070",
+      "id": 8
     }
   ]
 }
