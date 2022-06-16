@@ -1,0 +1,3 @@
+-criar uma interface de carrinho de compras
+-Inserir itens mockados no carrinho
+-fazer um commit da atividade no git
