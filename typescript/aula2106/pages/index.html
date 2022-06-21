@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../scripts/calculos.js"></script>
+</head>
+<body>
+    <input type="number" id="n1" placeholder="Informe numero" />
+    <input type="number" id="n2" placeholder="Informe numero" />
+    <button onclick="calcular()">Calcular</button>
+
+    <script>
+        function calcular(){
+           var n1 = parseInt(document.getElementById("n1").value)
+           var n2 = parseInt(document.getElementById("n2").value)
+           var retorno = somar(n1,n2)
+           alert(retorno)
+        }
+    </script>
+</body>
+</html>

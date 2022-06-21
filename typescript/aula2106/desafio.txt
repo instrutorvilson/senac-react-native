@@ -1,0 +1,7 @@
+revisão
+modulos
+utilizar no html
+
+-colocar as 4 operações matematicas do exercicio anterior e colocá-las em um módulo
+
+-criar um arquivo que utilize estas funções, o import deve usar o operador destructing
