@@ -1,0 +1,15 @@
+-Criar a classe pessoa representada no slide;
+
+-Acrescentar na classe pessoa os atributos
+peso e altura e crie um método que calcule o IMC.
+
+========
+Criar a classe produto com os seguintes atributos:
+-Descricao
+-valorUnitario
+-QtdeEstoque
+
+criar os métodos
+- getEstoque(): number
+- precoComdesconto(taxa:number):number
+- precoComAcrescimo(taxa:number):number
