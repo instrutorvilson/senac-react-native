@@ -22,6 +22,7 @@ class Pessoa{
       console.log(`Nome: ${this.nome}`)
       console.log(`Fone: ${this.fone}`)
       console.log(`Email: ${this.email}`)
+      console.log(`IMC: ${this.calcularIMC()}`)
       console.log('')
     }
 
