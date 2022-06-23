@@ -1,0 +1,4 @@
+Orientação a objetos se baseia no tripé:
+ - Encapsulamento
+ - Herança
+ - Polimorfismo
