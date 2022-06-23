@@ -27,7 +27,7 @@ class Pessoa{
     }
 
     calcularIMC():number{
-       let imc = (this.peso/(this.altura*this.altura)).toFixed(2);
+       let imc:string = (this.peso/(this.altura*this.altura)).toFixed(2);
        return parseFloat(imc)
     }
 }

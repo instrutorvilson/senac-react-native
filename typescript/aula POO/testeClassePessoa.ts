@@ -14,7 +14,6 @@ let maria = new Pessoa(2,'maria','345','maria@gmail.com',75,1.75)
 //console.log(maria.calcularIMC())
 //maria.imprimir()
 
-
 //criar um array de pessoas
 let pessoas: Pessoa[] = []
 pessoas.push(jose)
@@ -24,3 +23,4 @@ pessoas.push(new Pessoa(4,'Josefa','2345','josefa@gmail.com',75,1.89))
 
 //console.log(pessoas)
 pessoas.forEach((p) => p.imprimir() );
+//console.table(pessoas)
