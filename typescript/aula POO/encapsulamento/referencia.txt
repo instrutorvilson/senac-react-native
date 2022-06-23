@@ -1,0 +1,11 @@
+Modificadores de acesso:
+https://www.tutorialsteacher.com/typescript/data-modifiers
+
+Valores somente leitura
+https://www.tutorialsteacher.com/typescript/typescript-readonly
+
+Valores estáticos
+https://www.tutorialsteacher.com/typescript/typescript-static
+
+Herança
+https://www.tutorialsteacher.com/typescript/typescript-class
