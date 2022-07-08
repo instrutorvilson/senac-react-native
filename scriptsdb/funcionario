@@ -7,4 +7,6 @@ create table funcionario(
 
 insert into funcionario(nome, id_gerente)values('Paricia',4)
 
-select * from funcionario
+select ff.nome as Funcionario, fg.nome as Gerente
+from funcionario ff, funcionario fg
+where ff.id_gerente = fg.id

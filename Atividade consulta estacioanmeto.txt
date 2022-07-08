@@ -1,0 +1,12 @@
+Query 1
+-----------------
+Criar uma consulta para listar 
+o nome do cliente, a placa e a marca do véiculo de todos os clientes
+
+Query 2
+---------------
+filtrar a consulta pela placa
+
+Query 3
+----------------------
+filtrar a consulta pelo nome do cliente
