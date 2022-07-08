@@ -1,0 +1,10 @@
+create table funcionario(
+  id serial primary key,
+  nome varchar(50),
+  id_gerente int,
+  foreign  key(id_gerente) references funcionario(id)
+);
+
+insert into funcionario(nome, id_gerente)values('Paricia',4)
+
+select * from funcionario

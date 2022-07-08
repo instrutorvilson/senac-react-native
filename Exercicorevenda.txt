@@ -1,0 +1,2 @@
+Uma revenda de automoveis deseja criar uma aplicação para anunciar seus carros.O sistema deve ter recurso de perfil de usuario que podem ser: ADM, Operador e Cliente. Ao operador compete cadastrar os veículos; o ADM pode visualizar todas as funcionalidades do sistema, a consulta de veiculos pode ser realizada por todos os usuarios, mas a finalização da venda, o cliente deve estar logado.
+

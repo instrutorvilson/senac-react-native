@@ -1,0 +1,11 @@
+create table carro(
+	id serial primary key,
+	placa varchar(8),
+	marca varchar(20)
+);
+
+insert into carro(placa, marca)values('MEn7456','Toyota');
+insert into carro(placa, marca)values('QHZ-1978','Honda');
+insert into carro(placa, marca)values('LZZ-4186','Volkswaggen');
+
+select * from carro;

@@ -1,0 +1,12 @@
+create table carro_cliente(
+  cliente_id int,
+  carro_id int,
+  foreign key(cliente_id) references cliente(id),
+  foreign key(carro_id) references carro(id)
+);
+
+insert into carro_cliente(cliente_id,carro_id)values(1,3);
+insert into carro_cliente(cliente_id,carro_id)values(1,1);
+insert into carro_cliente(cliente_id,carro_id)values(2,3);
+
+select * from carro_cliente
